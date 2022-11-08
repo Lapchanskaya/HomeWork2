@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
  //  Задание 1
-        var dog = 8.0;
+        double dog = 8.0; // для выполнения задания 3 заменила переменную "var" на "double"для уменьшения на дробное значение
         System.out.println("dog = " + dog);
         var cat = 3.6;
         System.out.println("cat = " + cat );
@@ -15,6 +15,14 @@ public class Main {
         cat = cat + 4;
         System.out.println("cat = " + cat);
         paper = paper + 4;
+        System.out.println("paper = " + paper);
+
+  // Задание 3
+        dog = dog - 3.5; // для выполнения задания 3 заменила переменную "var" на "double"для уменьшения на дробное значение
+        System.out.println("dog = " + dog);
+        cat = cat - 1.6;
+        System.out.println("cat = " + cat);
+        paper = paper - 7639;
         System.out.println("paper = " + paper);
 
 
