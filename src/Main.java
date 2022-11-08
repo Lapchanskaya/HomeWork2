@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
  //  Задание 1
-        double dog = 8.0; // для выполнения задания 3 заменила переменную "var" на "double"для уменьшения на дробное значение
+        var dog = 8.0;
         System.out.println("dog = " + dog);
         var cat = 3.6;
         System.out.println("cat = " + cat );
@@ -18,7 +18,7 @@ public class Main {
         System.out.println("paper = " + paper);
 
   // Задание 3
-        dog = dog - 3.5; // для выполнения задания 3 заменила переменную "var" на "double"для уменьшения на дробное значение
+        dog = dog - 3.5;
         System.out.println("dog = " + dog);
         cat = cat - 1.6;
         System.out.println("cat = " + cat);
@@ -42,6 +42,17 @@ public class Main {
         System.out.println(" frog = " + frog );
         frog = frog + 4;
         System.out.println(" frog = " + frog );
+
+
+   // Задание 6
+        var weightOfOneBoxer = 78.2;
+        var weightOfTheSecondBoxer = 82.7;
+        var totalWeightOfTwoBoxers = weightOfOneBoxer + weightOfTheSecondBoxer;
+        System.out.println(" Общий вес боксеров = " + totalWeightOfTwoBoxers );
+
+        var weightDifference = weightOfTheSecondBoxer - weightOfOneBoxer;
+        System.out.println(" Второй боксер тяжелее первого на  " + weightDifference + "кг!" );
+
 
     }
 }
