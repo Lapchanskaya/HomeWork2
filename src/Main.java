@@ -53,6 +53,13 @@ public class Main {
         var weightDifference = weightOfTheSecondBoxer - weightOfOneBoxer;
         System.out.println(" Второй боксер тяжелее первого на  " + weightDifference + "кг!" );
 
+        // Задание 7
+        var weightDifferenceTwoBoxers = weightOfTheSecondBoxer - weightOfOneBoxer;
+        System.out.println(" Второй боксер тяжелее первого на  " + weightDifferenceTwoBoxers + "кг!" );
+        var theDifferenceInTheWeightsOfAthletes = weightOfTheSecondBoxer % weightOfOneBoxer;
+        System.out.println(" Второй боксер тяжелее первого на  " + theDifferenceInTheWeightsOfAthletes + "кг!" );
+
+
 
     }
 }
