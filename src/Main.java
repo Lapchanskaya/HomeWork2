@@ -31,6 +31,6 @@ public class Main {
         friend = friend + 2;
         System.out.println(" friend = " + friend );
         friend = friend / 7;
-        System.out.println(" friend = " + friend );
+        System.out.println(" friend = " + friend  );
     }
 }
