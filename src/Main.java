@@ -15,7 +15,7 @@ public class Main {
         cat = cat + 4;
         System.out.println("cat = " + cat);
         paper = paper + 4;
-        System.out.println("paper = " + paper);
+        System.out.println("paper = " + paper );
 
 
 
