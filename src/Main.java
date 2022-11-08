@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
- //  Задание 1
+        //  Задание 1
         var dog = 8.0;
         System.out.println("dog = " + dog);
         var cat = 3.6;
@@ -9,7 +9,7 @@ public class Main {
         var paper = 763789;
         System.out.println("paper = " + paper);
 
-  // Задание 2
+        // Задание 2
         dog = dog + 4;
         System.out.println("dog = " + dog);
         cat = cat + 4;
@@ -17,7 +17,7 @@ public class Main {
         paper = paper + 4;
         System.out.println("paper = " + paper);
 
-  // Задание 3
+        // Задание 3
         dog = dog - 3.5;
         System.out.println("dog = " + dog);
         cat = cat - 1.6;
@@ -25,7 +25,7 @@ public class Main {
         paper = paper - 7639;
         System.out.println("paper = " + paper);
 
- // Задание 4
+        // Задание 4
         var friend = 19;
         System.out.println(" friend = " + friend );
         friend = friend + 2;
@@ -33,7 +33,7 @@ public class Main {
         friend = friend / 7;
         System.out.println(" friend = " + friend  );
 
-  // Задание 5
+        // Задание 5
         var frog = 3.5;
         System.out.println(" frog = " + frog );
         frog = frog * 10;
@@ -44,7 +44,7 @@ public class Main {
         System.out.println(" frog = " + frog );
 
 
-   // Задание 6
+        // Задание 6
         var weightOfOneBoxer = 78.2;
         var weightOfTheSecondBoxer = 82.7;
         var totalWeightOfTwoBoxers = weightOfOneBoxer + weightOfTheSecondBoxer;
@@ -58,6 +58,18 @@ public class Main {
         System.out.println(" Второй боксер тяжелее первого на  " + weightDifferenceTwoBoxers + "кг!" );
         var theDifferenceInTheWeightsOfAthletes = weightOfTheSecondBoxer % weightOfOneBoxer;
         System.out.println(" Второй боксер тяжелее первого на  " + theDifferenceInTheWeightsOfAthletes + "кг!" );
+
+        // Задание 8
+        var totalHours = 640;
+        var onePersonIsWorking = 8;
+        var totalEmployees = totalHours / onePersonIsWorking;
+        System.out.println(" Всего работников в компании " + totalEmployees + " человек." );
+        totalEmployees = totalEmployees + 94;
+        totalHours = totalEmployees * onePersonIsWorking;
+        System.out.println(" Если в компании работает " + totalEmployees + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками ");
+
+
+
 
 
 
